@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Добавить отзыв</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- /* //  ------Страница добавления отзыва:------
+    Поле для ввода названия продукта.
+    Текстовое поле для самого отзыва.
+    Кнопка "Добавить отзыв", которая сохраняет отзыв о продукте в LocalStorage.*/ -->
+    <h1>
+      Здесь Вы можете оставить свой отзыв <br />
+      о наших товарах
+    </h1>
+
+    <form class="forma" action="">
+      <input
+        class="nameProduct"
+        type="text"
+        placeholder="Введите название продукта"
+        required
+      />
+      <textarea
+        placeholder="Ваш отзыв..."
+        class="rew"
+        name="review"
+        id="#"
+        cols="25"
+        rows="7"
+      ></textarea>
+      <button class="btn_add">Добавить отзыв</button>
+    </form>
+    <p class="message-err"></p>
+    <a href="./viewReviews.html">Перейти на страницу просмотра отзывов</a>
+
+    <script src="addReviews.js"></script>
+  </body>
+</html>

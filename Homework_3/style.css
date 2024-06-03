@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(16, 199, 219);
+  text-align: center;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 40px 5px 20px;
+}
+
+.labe {
+  display: flex;
+  margin-top: 30px;
+  color: rgb(195, 17, 189);
+  font-stretch: expanded;
+}
+
+.select_product {
+  display: flex;
+  margin-top: 20px;
+}
+
+.rew {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn_add {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  max-width: 200px;
+  margin-top: 20px;
+  color: blue;
+  background-color: rgb(127, 219, 204);
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+a {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  color: rgb(18, 138, 46);
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.message-err {
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 35, 3);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+h2 {
+  display: flex;
+  margin-left: 10px;
+  color: rgb(255, 127, 80);
+  gap: 10px;
+}
+
+span {
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(58, 58, 190);
+}
+
